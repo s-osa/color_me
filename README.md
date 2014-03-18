@@ -1,4 +1,3 @@
-color_me
-========
+# ColorMe
 
-カラーミーのAPIをRubyから扱うためのラッパーgem
+カラーミーのAPI（ http://shop-pro.jp/?mode=api_started ）をRubyから扱うためのラッパーgem
