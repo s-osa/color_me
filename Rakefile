@@ -5,6 +5,8 @@ RSpec::Core::RakeTask.new(:spec) do |task|
   task.rspec_opts = "--tag ~online"
 end
 
+task default: [:spec]
+
 RSpec::Core::RakeTask.new("spec:online") do |task|
   filename = 'token'
   raise RuntimeError, "'token' file not found" unless File.readable?(filename)
