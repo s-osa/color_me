@@ -1,6 +1,15 @@
-# ColorMe [![Build Status](https://travis-ci.org/s-osa/color_me.png?branch=master)](https://travis-ci.org/s-osa/color_me)
+# ColorMe
+[![Build Status](https://travis-ci.org/s-osa/color_me.png?branch=master)](https://travis-ci.org/s-osa/color_me)
+[![Code Climate](https://codeclimate.com/github/s-osa/color_me.png)](https://codeclimate.com/github/s-osa/color_me)
 
 カラーミーのAPI（ http://shop-pro.jp/?mode=api_started ）をRubyから扱うためのラッパーgem
+
+### 対応Rubyバージョン
+
+- 1.9.3
+- 2.0.0
+- 2.1.0
+
 
 ## インストール
 
