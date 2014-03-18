@@ -1,11 +1,9 @@
 require "color_me/version"
 
-module ColorMe
-  module ModuleMethods
+class ColorMe
+  class << self
     def token=(token)
       @@token = token
     end
   end
-
-  extend ModuleMethods
 end
