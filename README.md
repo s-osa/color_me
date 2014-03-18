@@ -1,16 +1,12 @@
-# ColorMe
+# ColorMe [![Build Status](https://travis-ci.org/s-osa/color_me.png?branch=master)](https://travis-ci.org/s-osa/color_me)
 
 カラーミーのAPI（ http://shop-pro.jp/?mode=api_started ）をRubyから扱うためのラッパーgem
 
-## Installation
+## インストール
 
-Add this line to your application's Gemfile:
+Gemfileに以下の内容の追加して`bundle`コマンドを実行してください。
 
     gem 'color_me', github: 's-osa/color_me'
-
-And then execute:
-
-    $ bundle
 
 ## Usage
 
