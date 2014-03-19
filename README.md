@@ -28,3 +28,20 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## テスト
+
+基本的なテストは以下のコマンドで実行できます。
+
+```sh
+$ bundle exec rake spec
+```
+
+また、実際のAPIを用いたテストが以下のコマンドで行えます。
+
+```sh
+$ echo "YourOwnToken" > token
+$ bundle exec rake spec:online
+```
+
+`token `ファイルは`.gitignore`に含まれていますが、typoなどによるcommitに注意してください。
