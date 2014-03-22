@@ -41,6 +41,11 @@ describe ColorMe::Products do
     it "should have all products", online: true do
       expect(@res[:products].size).to eq(@res[:meta][:total])
     end
+
+    it "should have unique products", online: true do
+      product_ids = @res[:products].map{|p| p[:id] }
+      expect(product_ids.uniq.size).to eq(@res[:meta][:total])
+    end
   end
 end
 
