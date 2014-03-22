@@ -16,7 +16,7 @@ class ColorMe
       OAuth2::AccessToken.new(client, @@token)
     end
 
-    def jsonize(json)
+    def parse_json(json)
       JSON.parse(json, symbolize_names: true)
     end
   end

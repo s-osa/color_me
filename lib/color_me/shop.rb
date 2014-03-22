@@ -3,7 +3,7 @@ class ColorMe
     class << self
       def get
         res = api.get('/v1/shop.json')
-        jsonize(res.body)
+        parse_json(res.body)
       end
     end
   end
