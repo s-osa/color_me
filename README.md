@@ -4,11 +4,32 @@
 
 カラーミーのAPI（ http://shop-pro.jp/?mode=api_started ）をRubyから扱うためのラッパーgem
 
+### API対応状況
+
+- :white_check_mark:      GET /v1/shop.json
+- :ballot_box_with_check: GET /v1/sales/stat.json
+- :ballot_box_with_check: GET /v1/sales.json
+- :ballot_box_with_check: GET /v1/sales/#{id}.json
+- :ballot_box_with_check: PUT /v1/sales/#{id}.json
+- :ballot_box_with_check: PUT /v1/sales/#{id}/cancel.json
+- :ballot_box_with_check: GET /v1/customers/#{id}.json
+- :white_check_mark:      GET /v1/products.json
+- :ballot_box_with_check: GET /v1/products/#{id}.json
+- :ballot_box_with_check: PUT /v1/products/#{id}.json
+- :ballot_box_with_check: GET /v1/stocks.json
+- :ballot_box_with_check: GET /v1/categories.json
+- :ballot_box_with_check: GET /v1/payments.json
+- :ballot_box_with_check: GET /v1/deliveries.json
+- :ballot_box_with_check: GET /v1/deliveries/date.json
+- :ballot_box_with_check: GET /v1/gifts.json 
+- :ballot_box_with_check: GET /logout
+
+
 ### 対応Rubyバージョン
 
-- 1.9.3
-- 2.0.0
 - 2.1.0
+- 2.0.0
+- 1.9.3
 
 
 ## インストール
