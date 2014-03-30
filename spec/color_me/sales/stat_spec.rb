@@ -8,7 +8,7 @@ describe ColorMe::Sales::Stat do
       expect(res).to be_an_instance_of(Hash)
     end
 
-    it "should have a key ':shop'", online: true do
+    it "should have a key ':sales_stat'", online: true do
       expect(res[:sales_stat]).not_to be_nil
     end
   end
