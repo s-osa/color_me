@@ -3,6 +3,7 @@ require "json"
 
 require "color_me/version"
 require "color_me/shop"
+require "color_me/sales"
 require "color_me/products"
 
 class ColorMe
