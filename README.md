@@ -21,7 +21,7 @@
 - :ballot_box_with_check: GET /v1/payments.json
 - :ballot_box_with_check: GET /v1/deliveries.json
 - :ballot_box_with_check: GET /v1/deliveries/date.json
-- :ballot_box_with_check: GET /v1/gifts.json 
+- :ballot_box_with_check: GET /v1/gifts.json
 - :ballot_box_with_check: GET /logout
 
 
