@@ -7,8 +7,8 @@
 ### API対応状況
 
 - :white_check_mark:      GET /v1/shop.json
-- :ballot_box_with_check: GET /v1/sales/stat.json
-- :ballot_box_with_check: GET /v1/sales.json
+- :white_check_mark:      GET /v1/sales/stat.json
+- :white_check_mark:      GET /v1/sales.json
 - :ballot_box_with_check: GET /v1/sales/#{id}.json
 - :ballot_box_with_check: PUT /v1/sales/#{id}.json
 - :ballot_box_with_check: PUT /v1/sales/#{id}/cancel.json
