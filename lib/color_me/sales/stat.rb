@@ -1,12 +1,15 @@
-class ColorMe
-  class Sales < self
-    class Stat < self
-      class << self
-        def get
-          res = api.get('/v1/sales/stat.json')
-          parse_json(res.body)
-        end
+require "color_me/single_resource"
+
+module ColorMe
+  module Sales
+    module Stat
+      extend SingleResource
+
+      def endpoint
+        '/v1/sales/stat.json'
       end
+
+      extend self
     end
   end
 end
