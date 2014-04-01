@@ -24,6 +24,18 @@ describe ColorMe::Sales, online: true do
     end
 
     context "with arguments" do
+      describe "id" do
+        before(:all) do
+          res = ColorMe::Sales.get(limit: 1)
+          @id = res[:sales].first[:id]
+          @res = ColorMe::Sales.get(@id)
+        end
+
+        it "should be able to get a sale" do
+          expect(@res[:sale][:id]).to eq(@id)
+        end
+      end
+
       describe ":limit" do
         before(:all){ @res = ColorMe::Sales.get(limit: 1) }
 
