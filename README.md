@@ -12,6 +12,7 @@
 - :white_check_mark:      GET /v1/sales/#{id}.json
 - :ballot_box_with_check: PUT /v1/sales/#{id}.json
 - :ballot_box_with_check: PUT /v1/sales/#{id}/cancel.json
+- :ballot_box_with_check: GET /v1/customers.json
 - :ballot_box_with_check: GET /v1/customers/#{id}.json
 - :white_check_mark:      GET /v1/products.json
 - :white_check_mark:      GET /v1/products/#{id}.json
